@@ -1,0 +1,76 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  background-color: rgb(250, 250, 248);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a {
+  text-decoration: underline;
+}
+
+.alap {
+  text-decoration: underline;
+}
+
+a:hover {
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+.alapelem {
+  margin-top: 1.5rem;
+  background-color: #ffffff;
+  padding-right: 5px;
+  padding-left: 0px;
+  border: 2px solid white;
+  border-radius: 7px;
+  box-shadow: rgba(0, 0, 0, 0.25) 5px 5px 9px;
+  width: auto;
+}
+
+.alapelem:hover {
+  border: 2px solid rgb(184, 177, 177);
+}
+
+.alapelem ul {
+  margin: 5px;
+  padding: 0;
+}
+
+.alapListElem {
+  background-color: rgb(245, 236, 230);
+  list-style-type: none;
+  margin: 3px 0px;
+  padding: 2px;
+  width: auto;
+}
+
+.alap_faveyt {
+  border: 2px solid rgba(0, 0, 0, 0.25);
+}
+
+.alapListElem a {
+  text-decoration: none;
+  color: black;
+}
+
+.alapListElem img {
+  max-height: 2rem;
+  background-size: cover;
+  border: 0;
+}
+
+.violetclass {
+  background-color: violet;
+}
+
+.alap_bridgetags {
+  box-shadow: rgba(0, 0, 0, 0.5) 15px 15px 19px;
+}
+
+.alap_bridgetags li {
+  background-color: rgb(128, 209, 163);
+}
