@@ -1,6 +1,6 @@
 {
   "name": "alap-demo-tw",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -12,7 +12,8 @@
     "tailwindcss": "^2.1.2"
   },
   "dependencies": {
-    "alap": "^1.2.3",
+    "@tailwindcss/typography": "^0.4.0",
+    "alap": "^1.3.0",
     "vite": "^2.2.3"
   }
 }
