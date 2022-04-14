@@ -254,6 +254,7 @@ export const alapConfig = {
     },
 
     mlblog1: {
+<<<<<<< HEAD
       label: 'One Link, Many Paths, Clicking Choice! (MultiLink, Part 1)',
       url: 'http://daniel.org/cafebucky/2012/02/26/one-link-many-paths-clicking-choice-multilink-part-1/',
       tags: ['alap', 'blog'],
@@ -269,6 +270,23 @@ export const alapConfig = {
       label: '(MultiLink, Part 3) - ID Includes and Tag Expressions...',
       url: 'http://daniel.org/cafebucky/2012/03/01/one-link-many-paths-clicking-choice-multilink-part-3/',
       tags: ['alap', 'blog'],
+=======
+      label: "One Link, Many Paths, Clicking Choice! (MultiLink, Part 1)",
+      url: "http://daniel.org/cafebucky/2012/02/26/one-link-many-paths-clicking-choice-multilink-part-1/",
+      tags: ["alap", "blog"],
+    },
+
+    mlblog2: {
+      label: "(MultiLink, Part 2) - where I introduce tags...",
+      url: "http://daniel.org/cafebucky/2012/02/27/one-link-many-paths-clicking-choice-multilink-part-2/",
+      tags: ["alap", "blog"],
+    },
+
+    mlblog3: {
+      label: "(MultiLink, Part 3) - ID Includes and Tag Expressions...",
+      url: "http://daniel.org/cafebucky/2012/03/01/one-link-many-paths-clicking-choice-multilink-part-3/",
+      tags: ["alap", "blog"],
+>>>>>>> 676b35a8d0a7ea817079dd3e1fcd0838706c6b8f
     },
 
     sanfrancisco: {
@@ -336,6 +354,32 @@ export const alapConfig = {
       image: 'img/ross-joyner-TX6dBiMwBV0-unsplash.jpg',
       altText: 'SF Painted Ladies',
       tags: ['sf_image', 'city_images'],
+    },
+
+    navtop: {
+      label: "top of document",
+      url: "#top",
+      targetWindow: "_self",
+    },
+
+    navbottom: {
+      label: "bottom of document",
+      url: "#bottom",
+      targetWindow: "_self",
+    },
+
+    nyc_skyline_img: {
+      url: "https://jessieonajourney.com/best-views-in-nyc-at-night",
+      image: "img/hannes-richter-GzV_dXR3MgM-unsplash.jpg",
+      altText: "NYC Skyline with Brooklyn Bridge",
+      tags: ["nyc_image", "city_images"],
+    },
+
+    sf_skyline_img: {
+      url: "https://unsplash.com/s/photos/san-francisco-skyline",
+      image: "img/ross-joyner-TX6dBiMwBV0-unsplash.jpg",
+      altText: "SF Painted Ladies",
+      tags: ["sf_image", "city_images"],
     },
   },
 };
